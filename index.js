@@ -12,7 +12,7 @@ const guild = new Discord.GuildMember();
 
 //--------------------------------------
 
-var JSON_PATH = 'nexus_server_friend/setup.json';
+var JSON_PATH = '/setup.json';
 
 let rawdata = fs.readFileSync(JSON_PATH);
 let botSet = JSON.parse(rawdata)
